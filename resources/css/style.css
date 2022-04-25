@@ -1,0 +1,95 @@
+#heading {
+    margin: 60px 0px auto;
+    text-align: center;
+}
+
+#quotes {
+    margin: 20px auto;
+    width: 90%;
+    height: 60vh;
+    max-width: 1000px;
+    text-align: center;
+}
+
+#quotes p {
+    padding: 20px 0px;
+    font-size: 24px;
+    font-style: italic;
+}
+
+#new-quotes {
+    margin: 20px 0px auto;
+    text-align: center;
+}
+
+#button {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: var(--color-background);
+    color: var(--color-on-background);
+    border: 0;
+    border-radius: 0.25rem;
+    font-family: 'League Spartan', sans-serif;
+    cursor: pointer;
+}
+
+#button:hover {
+    background-color: var(--color-background-variant);
+}
+
+/* Universal Styles */
+:root {
+    --color-primary: #54dea4;
+    --color-on-primary: #003823;
+    --color-primary-container: #005235;
+    --color-on-primary-container: #74fbbe;
+    --color-secondary: #67dd89;
+    --color-on-secondary: #003916;
+    --color-secondary-container: #005324;
+    --color-on-secondary-container: #84fba3;
+    --color-outline: #938F99;
+    --color-background-variant: #26262C;
+    --color-background: #1b1b1f;
+    --color-on-background: #e4e1e6;
+    --color-surface: #1b1b1f;
+    --color-on-surface: #e4e1e6;
+    --color-surface-variant: #49454F;
+    --color-on-surface-variant: #CAC4D0;
+    --color-inverse-surface: #e4e1e6;
+    --color-inverse-on-surface: #1b1b1f;
+    
+    --brand-color: #11253A;
+    --accent-color: #FCD255;
+    --accent-color-shade: #FBBD04;
+    --light-text-color: #FFF;
+    --dark-text-color: #122539;
+    --dark-background: #0A1624;
+    --light-background: #fff;
+    --header-background-color: #262626;
+    --header-background-hover: #404040;
+}
+
+html {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 16px;
+    scroll-behavior: smooth;
+  }
+
+h1 {
+    font-family: Coda, cursive;
+    font-size: 32px;
+}
+
+h2 {
+    font-family: Coda, cursive;
+    font-size: 24px;
+}
+
+p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'League Spartan', sans-serif;
+}
