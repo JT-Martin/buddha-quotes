@@ -13,7 +13,7 @@
 
 #quotes p {
     padding: 20px 0px;
-    font-size: 24px;
+    font-size: calc(15px + 0.5vw);
     font-style: italic;
 }
 
