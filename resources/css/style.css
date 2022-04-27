@@ -9,6 +9,7 @@
     height: 60vh;
     max-width: 1000px;
     text-align: center;
+    transition: opacity .5s ease-in-out;
 }
 
 #quotes p {
@@ -26,16 +27,20 @@
     font-size: 20px;
     text-align: center;
     padding: 20px;
-    background-color: var(--color-background);
-    color: var(--color-on-background);
-    border: 0;
+    background-color: white;
+    color: var(--color-background);
+    border-width: 2px;
     border-radius: 0.25rem;
+    border-color: var(--color-background);
     font-family: 'League Spartan', sans-serif;
     cursor: pointer;
+    transition: color .2s ease-in-out;
+    transition: background-color .2s ease-in-out;
 }
 
 #button:hover {
     background-color: var(--color-background-variant);
+    color: var(--color-on-background)
 }
 
 /* Universal Styles */
